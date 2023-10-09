@@ -1,0 +1,65 @@
+
+
+
+.add-todo,
+.submit-btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button{
+    padding: 3px;
+}
+
+.add-todo-sub {
+    margin-top: 100px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  height: 150px;
+  width: 400px;
+  margin: 20px;
+  overflow: scroll;
+}
+
+.logout-btn {
+  border: none;
+  background: transparent;
+  color: white !important;
+    
+}
+
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+li .nav-link ,
+.navbar-brand{
+    padding: "0 20px";
+    color: white !important;
+}
+
+.navbar-brand h4{
+    margin-bottom: 0;
+}
+
+.bg-body-tertiary {
+    background-color: black !important;
+    padding: 10px 0 ; 
+}
+
+.not-found {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 30px;
+}
